@@ -11,13 +11,14 @@
     <title>Stopwatch</title>
 </head>
 <body>
-    <div class="wrapper">
+    <div id="wrapper">
         <h2>Stopwatch</h2>
         <h3>Javascript Stopwatch</h3>
-        <p><span>00:</span><span>00:</span><span>00</span></p>
-    <button id="button-start">Start</button>
-    <button id="button-stop">Stop</button>
-    <button id="button-reset">Reset</button>
+        <div id="stopwatch">00:00:00</div>
+    <button onclick="start(true)" id="start-btn">Start</button>
+    <button onclick="pause()">Stop</button>
+    <button onclick="reset()">Reset</button>
     </div>
+<script src="main.js"></script>
 </body>
 </html>

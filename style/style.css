@@ -6,7 +6,7 @@
 body{
     background: linear-gradient(to right, hsl(0, 100%, 50%), hsl(0, 100%, 60%));
 }
-.wrapper{
+#wrapper{
     width: 800px;
     margin: 30px auto;
     text-align: center;
@@ -24,10 +24,7 @@ h2, h3{
     font-size: 2.6em;
     text-transform: uppercase;
 }
-
-.wrapper p{
+#wrapper #stopwatch {
     font-size: 100px;
-}
-.wrapper p span {
-    font-size: 100px;
+    margin-bottom: 10px;
 }
