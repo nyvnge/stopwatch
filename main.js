@@ -46,3 +46,13 @@ function pause(){
     clearTimeout(timeoutId);
     startBtn.disabled = false;
 }
+
+// Function to reset stopwatch
+function reset(){
+    ms = 0;
+    sec = 0;
+    min = 0;
+    clearTimeout(timeoutId);
+    stopwatch.innerHTML = '00:00:00';
+    startBtn.disabled = false;
+} 
